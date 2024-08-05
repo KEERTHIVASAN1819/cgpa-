@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGPA Calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CGPA Calculator</h1>
+        <form id="cgpa-form">
+            <div id="courses">
+                <div class="course">
+                    <label for="grade1">Grade:</label>
+                    <input type="text" id="grade1" class="grade" maxlength="2" required>
+                    <label for="credits1">Credits:</label>
+                    <input type="number" id="credits1" class="credits" min="1" required>
+                </div>
+                <div class="course">
+                    <label for="grade2">Grade:</label>
+                    <input type="text" id="grade2" class="grade" maxlength="2" required>
+                    <label for="credits2">Credits:</label>
+                    <input type="number" id="credits2" class="credits" min="1" required>
+                </div>
+                <div class="course">
+                    <label for="grade3">Grade:</label>
+                    <input type="text" id="grade3" class="grade" maxlength="2" required>
+                    <label for="credits3">Credits:</label>
+                    <input type="number" id="credits3" class="credits" min="1" required>
+                </div>
+                <div class="course">
+                    <label for="grade4">Grade:</label>
+                    <input type="text" id="grade4" class="grade" maxlength="2" required>
+                    <label for="credits4">Credits:</label>
+                    <input type="number" id="credits4" class="credits" min="1" required>
+                </div>
+                <div class="course">
+                    <label for="grade5">Grade:</label>
+                    <input type="text" id="grade5" class="grade" maxlength="2" required>
+                    <label for="credits5">Credits:</label>
+                    <input type="number" id="credits5" class="credits" min="1" required>
+                </div>
+                <div class="course">
+                    <label for="grade6">Grade:</label>
+                    <input type="text" id="grade6" class="grade" maxlength="2" required>
+                    <label for="credits6">Credits:</label>
+                    <input type="number" id="credits6" class="credits" min="1" required>
+                </div>
+            </div>
+            <button type="submit">Calculate CGPA</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
